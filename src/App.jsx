@@ -3,15 +3,17 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import TrustedBy from './sections/TrustedBy';
 import About from './sections/About';
+import TechStack from './sections/TechStack';
 import Services from './sections/Services';
 import Industries from './sections/Industries';
 import Portfolio from './sections/Portfolio';
-import USP from './sections/USP';
+import WhyChooseUs from './sections/WhyChooseUs';
 import Process from './sections/Process';
 import Testimonials from './sections/Testimonials';
-import Stats from './sections/Stats';
+import FAQ from './sections/FAQ';
 import CTA from './sections/CTA';
 import Footer from './sections/Footer';
+import FloatingContactBar from './components/FloatingContactBar';
 
 function App() {
   return (
@@ -20,15 +22,17 @@ function App() {
       <Hero />
       <TrustedBy />
       <About />
+      <TechStack />
       <Services />
       <Industries />
       <Portfolio />
-      <USP />
+      <WhyChooseUs />
       <Process />
       <Testimonials />
-      <Stats />
+      <FAQ />
       <CTA />
       <Footer />
+      <FloatingContactBar />
     </main>
   );
 }
